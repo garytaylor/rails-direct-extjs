@@ -1,0 +1,134 @@
+--- !ruby/object:Gem::Specification 
+name: rails-extjs-direct
+version: !ruby/object:Gem::Version 
+  hash: 1
+  prerelease: false
+  segments: 
+  - 0
+  - 0
+  - 15
+  version: 0.0.15
+platform: ruby
+authors: 
+- Chris Scott
+autorequire: 
+bindir: bin
+cert_chain: []
+
+date: 2009-09-28 00:00:00 -05:00
+default_executable: 
+dependencies: 
+- !ruby/object:Gem::Dependency 
+  name: newgem
+  prerelease: false
+  requirement: &id001 !ruby/object:Gem::Requirement 
+    requirements: 
+    - - ">="
+      - !ruby/object:Gem::Version 
+        hash: 27
+        segments: 
+        - 1
+        - 3
+        - 0
+        version: 1.3.0
+  type: :development
+  version_requirements: *id001
+- !ruby/object:Gem::Dependency 
+  name: hoe
+  prerelease: false
+  requirement: &id002 !ruby/object:Gem::Requirement 
+    requirements: 
+    - - ">="
+      - !ruby/object:Gem::Version 
+        hash: 55
+        segments: 
+        - 1
+        - 8
+        - 0
+        version: 1.8.0
+  type: :development
+  version_requirements: *id002
+description: |-
+  A series of components for implementing the Ext.Direct API specification in Rails 2.3 and higher.
+  Ext.Direct in Rails is implementede with Rack Middleware.
+email: 
+- christocracy@gmail.com
+executables: []
+
+extensions: []
+
+extra_rdoc_files: 
+- History.txt
+- Manifest.txt
+- PostInstall.txt
+- README.rdoc
+files: 
+- .git/HEAD
+- .git/config
+- .git/description
+- .git/hooks/applypatch-msg.sample
+- .git/hooks/commit-msg.sample
+- .git/hooks/post-commit.sample
+- .git/hooks/post-receive.sample
+- .git/hooks/post-update.sample
+- .git/hooks/pre-applypatch.sample
+- .git/hooks/pre-commit.sample
+- .git/hooks/pre-rebase.sample
+- .git/hooks/prepare-commit-msg.sample
+- .git/hooks/update.sample
+- .git/info/exclude
+- .project
+- History.txt
+- Manifest.txt
+- PostInstall.txt
+- README.rdoc
+- Rakefile
+- lib/rails-extjs-direct.rb
+- lib/rails-extjs-direct/helpers/direct_controller_helper.rb
+- lib/rails-extjs-direct/mixins/action_controller/direct_controller.rb
+- lib/rails-extjs-direct/rack/remoting_provider.rb
+- lib/rails-extjs-direct/xexception.rb
+- lib/rails-extjs-direct/xrequest.rb
+- lib/rails-extjs-direct/xresponse.rb
+- rails-extjs-direct.gemspec
+- script/console
+- script/destroy
+- script/generate
+- test/test_helper.rb
+- test/test_rails-extjs-direct.rb
+has_rdoc: true
+homepage: http://rubyforge.org/projects/rails-extjs/
+licenses: []
+
+post_install_message: PostInstall.txt
+rdoc_options: 
+- --main
+- README.rdoc
+require_paths: 
+- lib
+required_ruby_version: !ruby/object:Gem::Requirement 
+  requirements: 
+  - - ">="
+    - !ruby/object:Gem::Version 
+      hash: 3
+      segments: 
+      - 0
+      version: "0"
+required_rubygems_version: !ruby/object:Gem::Requirement 
+  requirements: 
+  - - ">="
+    - !ruby/object:Gem::Version 
+      hash: 3
+      segments: 
+      - 0
+      version: "0"
+requirements: []
+
+rubyforge_project: rails-extjs
+rubygems_version: 1.6.2
+signing_key: 
+specification_version: 3
+summary: A series of components for implementing the Ext.Direct API specification in Rails 2.3 and higher
+test_files: 
+- test/test_helper.rb
+- test/test_rails-extjs-direct.rb
